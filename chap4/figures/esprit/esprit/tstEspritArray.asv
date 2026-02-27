@@ -1,0 +1,26 @@
+% ESPRIT in time Domain
+% Kaluri V Ranga Rao Belle Mead NJ 3rd Jun 2025
+clear all; close all; clc;
+DOAS = [20, -35, 25];
+
+POWS = [1, 1, 1];
+std = 1;
+D = 3; snapShots = 4;
+NumOfElements = 31;
+dbyl = 0.5;
+SamplesPerCycle = 8;
+rcA = [snapShots NumOfElements];
+[A SNR] = IQmatrix(DOAS,std,D,rcA,dbyl,SamplesPerCycle,POWS);
+[U L R] = espritUla(D,dbyl,A);
+%sk = A(1,:); N = NumOfElements;
+%[u,lambda] = mysvd(S);
+%sz = size(E); m = sz(1);
+%R = covSig(sk,m,N)
+%Sig = diag(L);
+%U = S*E*inv(Sig);
+%S = u(:,1:D); B = S(1:m-1,:); b = S(2:m,:);
+
+
+
+
+

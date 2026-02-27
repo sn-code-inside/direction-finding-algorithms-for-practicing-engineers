@@ -1,0 +1,36 @@
+
+gMusik.mexw64 &
+espritUla.mexw64 &
+LatexFileMatrix.mexw64 &
+IQmatrix.mexw64 &
+gMusic.mexw64 &
+sweepFine.mexw64 &
+clusterLin.mexw64 &
+rootMusic.mexw64 &
+getRgD.mexw64 &
+initR.mexw64 &
+ 
+chap5\figures\dOfVoice\dOfVoice &
+chap3\figures\esprit\esprit &
+chap5\figures\fmcwRadar\fmcwRadar &
+chap3\figures\musicAndGmu\musicAndGmu &
+chap3\figures\musicAndGmu\musicAndGmu &
+chap3\figures\musicAndGmu\musicAndGmu &
+chap5\figures\fmcwRadar\fmcwRadar & 
+chap3\figures\musicAndGmu\musicAndGmu & 
+chap3\figures\myMexGetRgD & 
+chap3\figures\myMexInitR & 
+ 
+mexGmusik.m &
+mexEspritUla.m &
+myMexLatexFileMatrix.m &
+mexIQmatrix.m &
+mexGmusic.m &
+mexSweepFine.m &
+myMexClst.m &
+mexRootMusic.m &
+myMexGetRgD.m &
+myMexInitR.m &
+
+
+

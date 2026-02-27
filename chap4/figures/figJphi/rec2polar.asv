@@ -1,0 +1,12 @@
+function [s] = rec2polar(a,s)
+%UNTITLED Summary of this function goes here
+%   Detailed explanation goes here
+  ar = abs(a); ath = angle(a)*180/pi;
+  n = length(ar);
+  for k=1:n-1
+  if ( sign(ath(k)) < 0 ) si = '-'; else si =''; end;    
+  s =[s num2str(ar(k),2) '$e^{' si 'j' num2str(abs(ath(k)),3) '}$ &'];
+  end
+  s =[s num2str(ar(k),2) '$e^{' si 'j' num2str(abs(ath(k)),3) '}$ &'];
+  s = [s '\cr'];
+end
