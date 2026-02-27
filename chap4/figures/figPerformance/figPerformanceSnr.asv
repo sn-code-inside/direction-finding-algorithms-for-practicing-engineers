@@ -1,0 +1,28 @@
+  clc; clear all;
+  close all;
+
+  snapShots(1) = 16; kmax = 50;
+  stdx = linspace(0.33,1.5,kmax);
+  for k=1:kmax
+  [SDE16(k),sNr16(k),p,thetak,doa,delPhi,NumOfElements,SamplesPerCycle] = gMuStd(stdx(k),snapShots(1));
+  end;
+
+  snapShots(2) = 256; %kmax = 50;
+  %stdx = linspace(0.33,1.5,kmax);
+  for k=1:kmax
+  [SDE256(k),sNr256(k),p,thetak,doa,delPhi,NumOfElements,SamplesPerCycle] = gMuStd(stdx(k),snapShots(2));
+  end;
+
+  muSig(1) = mean(SDE16); muSig(2) = mean(SDE256);
+  subplot(311); plot(sNr16,SDE16,'.-r',sNr256,SDE256,'.-b');grid
+    numSc = ['ULA ' num2str(NumOfElements) ' $\mu_{\sigma_g}$ [' num2str(muSig,3) '] dB at $f_n= $'...
+      num2str(1/SamplesPerCycle,3) ' Hz ' ];
+  numS = [numSc ' $\Delta\varphi$ =' num2str(delPhi) ...
+      '$^\circ$ Snap Shots [' num2str(snapShots) ']'];
+  title(numS,'interpreter','latex');
+
+  xlabel('SNR in dB','interpreter','latex');
+  xticks([0 muSig(2) muSig(1) 2.5 4])
+  ylabel('$\sigma_g$','interpreter','latex');
+
+  legend('Snap Shots 16',Snap Shot
