@@ -1,0 +1,97 @@
+\begin{center} 
+ \begin{enumerate} 
+\item \begin{tabular}{ | p{15cm} | }\hline\{$P_{0}$\} Initial Set of Normalized Eigen Values \\ 
+{$P_{0}$}=\{3.0612 2.4644 0.6797 0.5204 0.4731 0.4445 0.4032 0.3653 0.3321 0.3206 0.3106 \} Initial Set \\ 
+            $P_{0}$ (flag 1) ($\sigma_{0}$ 0.9599) ($\mu_{0}$ 0.8523) split \{11\} \\ 
+$P_{0}-\mu_{0}$ = [ 2.2089 1.6121 -0.1726 -0.3319 -0.3792 -0.4078 -0.4491 -0.4870 -0.5202 -0.5317 -0.5417 ]  \\ 
+\hline 
+\end{tabular}\\ \vspace{3mm}
+
+\item \begin{tabular}{ | p{15cm} | }\hline\{$P_{0}$\} 
+            (flag 1) How it is split 11 = \{$p_{1}$\}2 + \{$P_{1}$\}9\\ 
+$p_{1}$=\{ 3.0612 2.4644 \} as in equation \ref{eq:4_21} \\ 
+            $\chi$(0) $\longrightarrow~~P_{0}$([0 1]) \\ 
+\hline 
+\end{tabular}\\ \vspace{3mm}
+
+\item \begin{tabular}{ | p{15cm} | }\hline\{$P_{1}$\} Eigen Values \\ 
+{$P_{1}$}=\{0.6797 0.5204 0.4731 0.4445 0.4032 0.3653 0.3321 0.3206 0.3106 \} as in equation \ref{eq:4_22} \\ 
+            $P_{1}$ (flag 1) ($\sigma_{1}$ 0.1190) ($\mu_{1}$ 0.4277) split \{9\} \\ 
+$P_{1}-\mu_{1}$ = [ 0.2520 0.0927 0.0454 0.0168 -0.0245 -0.0624 -0.0956 -0.1071 -0.1171 ]  \\ 
+\hline 
+\end{tabular}\\ \vspace{3mm}
+
+\item \begin{tabular}{ | p{15cm} | }\hline\{$P_{1}$\} 
+            (flag 1) How it is split 9 = \{$p_{2}$\}1 + \{$P_{2}$\}8\\ 
+$p_{2}$=\{ 0.6797 \} as in equation \ref{eq:4_21} \\ 
+            $\chi$(1) $\longrightarrow~~P_{0}$([2 2]) \\ 
+\hline 
+\end{tabular}\\ \vspace{3mm}
+
+\item \begin{tabular}{ | p{15cm} | }\hline\{$P_{2}$\} Eigen Values \\ 
+{$P_{2}$}=\{0.5204 0.4731 0.4445 0.4032 0.3653 0.3321 0.3206 0.3106 \} as in equation \ref{eq:4_22} \\ 
+            $P_{2}$ (flag 1) ($\sigma_{2}$ 0.0773) ($\mu_{2}$ 0.3962) split \{8\} \\ 
+$P_{2}-\mu_{2}$ = [ 0.1242 0.0769 0.0483 0.0070 -0.0309 -0.0641 -0.0756 -0.0856 ]  \\ 
+\hline 
+\end{tabular}\\ \vspace{3mm}
+
+\item \begin{tabular}{ | p{15cm} | }\hline\{$P_{2}$\} 
+            (flag -1) How it is split 8 = \{$p_{3}$\}8 + \{$P_{3}$\}0\\ 
+$p_{3}$=\{ 0.5204 0.4731 0.4445 0.4032 0.3653 0.3321 0.3206 0.3106 \} as in equation \ref{eq:4_21} \\ 
+            break loop \\ 
+\hline 
+\end{tabular}\\ \vspace{3mm}
+
+\item \begin{tabular}{ | p{15cm} | }\hline\{$P_{2}$\} 
+            Number of Rows 3
+            sorted on 1st column
+            [0  1]             [2  2]             [3  10] \\ 
+            Number of rows [flag -1]3
+            End of Phase 1(11) \\ 
+
+\hline 
+\end{tabular}\\ \vspace{3mm}
+
+\item \begin{tabular}{ | p{15cm} | }\hline 
+            [0] $\sigma(P_0($[0 1])$\rightarrow$(0.4220)
+            [1] $\sigma(P_0($[2 2])$\rightarrow$(0.0000)
+            [2] $\sigma(P_0($[3 10])$\rightarrow$(0.0773)
+            \\ maximum variance seg 0.4220[0]
+            row 0 need to be further partioned \\ 
+\hline 
+\end{tabular}\\ \vspace{3mm}
+
+\item \begin{tabular}{ | p{15cm} | }\hline\{$P_{0}$\} {$P_{0}$}=\{3.0612 2.4644             $P_{0}$ (flag 1) ($\sigma_{0}$ 0.4220) ($\mu_{0}$ 2.7628) split \{2\} \\ 
+$P_{0}-\mu_{0}$ = [ 0.2984 -0.2984 ]  \\ 
+\hline 
+\end{tabular}\\ \vspace{3mm}
+
+\item \begin{tabular}{ | p{15cm} | }\hline\{$P_{0}$\} 
+            (flag -1) How it is split 2 = \{$p_{1}$\}0 + \{$P_{1}$\}2\\ 
+$p_{1}$=\{ \} as in equation \ref{eq:4_21} \\ 
+            break loop \\ 
+\hline 
+\end{tabular}\\ \vspace{3mm}
+
+\item \begin{tabular}{ | p{15cm} | }\hline\{$P_{0}$\} 
+            There is Only One Row [flag -1]1
+            End of Phase 2(2) \\ 
+
+\hline 
+\end{tabular}\\ \vspace{3mm}
+
+\item \begin{tabular}{ | p{15cm} | }\hline 
+            [0] $P_0$[0.1]	[$\sigma$ 0.4220	$\mu$ 2.7628]
+            [1] $P_0$[2.2]	[$\sigma$ 0.0000	$\mu$ 0.6797]
+            [2] $P_0$[3.10]	[$\sigma$ 0.0773	$\mu$ 0.3962]
+\\ \hline 
+\end{tabular}\\ \vspace{3mm}
+
+\item \begin{tabular}{ | p{15cm} | }\hline 
+            [0] $P_0$[0.1]	[$\sigma$ 0.4220	$\mu$ 2.7628]
+            [1] $P_0$[2.10]	[$\sigma$ 0.1190	$\mu$ 0.4277]
+\\ \hline 
+\end{tabular}\\ \vspace{3mm}
+
+\end{enumerate} 
+ \end{center}
