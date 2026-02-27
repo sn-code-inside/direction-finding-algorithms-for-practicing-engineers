@@ -1,0 +1,1 @@
+mex LatexFileMatrix.cpp memAlocFree.cpp

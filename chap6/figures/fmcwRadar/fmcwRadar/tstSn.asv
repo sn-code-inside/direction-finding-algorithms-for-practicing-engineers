@@ -1,0 +1,24 @@
+clc; clear all;
+close all;
+blocks = 10;
+file = 'car-car-bike.txt'
+[D S  = getScene(file,-1,blocks);
+%[D S] = getScene(file,0,blocks);
+%r = S(1,1); phi = S(1,2); sig =S(1,3); delph = S(1,4);
+%polarplot(0,0,phi*pi/180,r,'.','markersize',20*sig);
+
+for k=0:40
+[D S config] = getScene(file,k,blocks);
+    if (D<0) break; 
+    else 
+        S
+%        r = S(:,1); 
+%        phi = S(:,2);  
+%        sig = S(:,3); 
+%        delph = S(:,4); 
+%        quiver(r.*sind(phi),r.*cosd(phi),sig.*sind(delph),sig.*cosd(delph));
+%        hold on; polarplot(phi*pi/180,r,'.','markersize',20*sig); hold off;
+    end;
+pause;
+end
+[D S config] = getScene(file,-1,blocks);

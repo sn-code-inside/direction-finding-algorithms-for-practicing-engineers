@@ -1,0 +1,17 @@
+!. Opening a log file closeDoa.log Mon Sep 15 13:06:38 2025
+
+!. closeDoa.txt of size [13388959] Wed Jan 24 16:05:44 2018
+
+!. current working directory D:\myIndustry\Dr Kaluri Research House\newBook\Book On DF\chapOne\myBook\Book\chap6\figures\figRgPhiGfk
+!. int rdRcon(..)
+!. 3rd value in rcon.txt file is [1]
+   if -1 single stepping 
+   and if -2 you get some documentation and exit out
+
+!. scanning the file closeDoa.txt for details by reading 1024 lines
+!. Block Markers 1 
+   int CheckrdRadar( scan the file closeDoa.txt)
+!. ADC Samples 512
+!. File closeDoa.txt[1024.1]
+!. Fix comptability issue adc 512 fft 512 i7Ti 0
+!. I will Fix it for you probably data is from TI processor
