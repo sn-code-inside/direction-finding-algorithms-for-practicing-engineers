@@ -1,11 +1,11 @@
 ﻿  cMath.cpp
   linDataSeg.cpp
-D:\myIndustry\Dr Kaluri Research House\newBook\Book On DF\chapOne\myBook\Book\chap4\figures\rootMu\rootMu\linDataSeg.cpp(157,14): warning C4129: '{': unrecognized character escape sequence
-D:\myIndustry\Dr Kaluri Research House\newBook\Book On DF\chapOne\myBook\Book\chap4\figures\rootMu\rootMu\linDataSeg.cpp(157,14): warning C4129: '}': unrecognized character escape sequence
+D:\Edu-Institutions\JNTU-H\myResearch\IEEEtrans\IEEE TechDefence 2023 Rome\paper\Tex\myBookCandMcode\chap4\figures\rootMu\rootMu\linDataSeg.cpp(157,14): warning C4129: '{': unrecognized character escape sequence
+D:\Edu-Institutions\JNTU-H\myResearch\IEEEtrans\IEEE TechDefence 2023 Rome\paper\Tex\myBookCandMcode\chap4\figures\rootMu\rootMu\linDataSeg.cpp(157,14): warning C4129: '}': unrecognized character escape sequence
   memAlocFree.cpp
   myClusters.cpp
-D:\myIndustry\Dr Kaluri Research House\newBook\Book On DF\chapOne\myBook\Book\chap4\figures\rootMu\rootMu\myClusters.cpp(24,12): warning C4101: 'er': unreferenced local variable
+D:\Edu-Institutions\JNTU-H\myResearch\IEEEtrans\IEEE TechDefence 2023 Rome\paper\Tex\myBookCandMcode\chap4\figures\rootMu\rootMu\myClusters.cpp(24,12): warning C4101: 'er': unreferenced local variable
   rootMu.cpp
-D:\myIndustry\Dr Kaluri Research House\newBook\Book On DF\chapOne\myBook\Book\chap4\figures\rootMu\rootMu\rootMu.cpp(22,20): warning C4101: 'p': unreferenced local variable
+D:\Edu-Institutions\JNTU-H\myResearch\IEEEtrans\IEEE TechDefence 2023 Rome\paper\Tex\myBookCandMcode\chap4\figures\rootMu\rootMu\rootMu.cpp(22,20): warning C4101: 'p': unreferenced local variable
   Generating Code...
-  rootMu.vcxproj -> D:\myIndustry\Dr Kaluri Research House\newBook\Book On DF\chapOne\myBook\Book\chap4\figures\rootMu\x64\Debug\rootMu.exe
+  rootMu.vcxproj -> D:\Edu-Institutions\JNTU-H\myResearch\IEEEtrans\IEEE TechDefence 2023 Rome\paper\Tex\myBookCandMcode\chap4\figures\rootMu\x64\Debug\rootMu.exe
