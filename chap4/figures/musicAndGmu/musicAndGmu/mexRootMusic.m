@@ -1,0 +1,1 @@
+mex rootMusic.cpp memAlocFree.cpp cMath.cpp
