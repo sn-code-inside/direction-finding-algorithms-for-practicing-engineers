@@ -1,0 +1,71 @@
+!. Opening a log file DataCarSide.log Mon Sep 15 12:54:37 2025
+
+!. DataCarSide.txt of size [19588782] Thu Jan 11 12:02:30 2018
+
+!. current working directory D:\myIndustry\Dr Kaluri Research House\newBook\Book On DF\chapOne\myBook\Book\chap6\figures\figCarSide
+!. int rdRcon(..)
+!. 3rd value in rcon.txt file is [1]
+   if -1 single stepping 
+   and if -2 you get some documentation and exit out
+
+!. scanning the file DataCarSide.txt for details by reading 1024 lines
+!. Block Markers 1 
+   int CheckrdRadar( scan the file DataCarSide.txt)
+!. ADC Samples 512
+!. File DataCarSide.txt[1024.1]
+!. Fix comptability issue adc 512 fft 512 i7Ti 0
+!. I will Fix it for you probably data is from TI processor
+.............. simple documentaion .........updated on 16th Sep 2022
+
+!. reading datafile on Mon Sep 15 12:54:37 2025
+
+!. DataCarSide.txt of size [19588782] Thu Jan 11 12:02:30 2018
+
+!. if NO argument it will take from rcon.txt
+!. I try to provide some doumentaion 
+!. I will be reading two files ->  [rcon.txt and tdata.txt]
+!. Contains log information when ever you execute this in *.log
+!. rcon file contains only one row giving configuration details
+!. there are 7 numerical entries and last is a file string = [DataCarSide.txt]
+!. 1. rcon[0] alpha slope in MhZ per micro second [26.0000]
+!. 2. rcon[1] Fs sampling frequency in KhZ [4500.0000]
+!. 3. rcon[2] control program control 1  0 -1 -2 [1]
+!. 4. rcon[3] synthetic data 0 or 1 [0]
+!. 5. rcon[4] numberOfTgts [5]
+!. 6. rcon[5] N number of samples in the phase sepctrum kMUSIC [180]
+!. 7. rcon[6] kmax is the number of time A matrix is read from file DataCarSide.txt [25]
+!. 8. rcon[7] numberOfTgts [5]
+!. 9. rcon[8] samples for FFT [512]
+!. 0. rcon[9] acquired ADC samples [512]
+!. 1. rcon[10] a flag needed 225 samples [0]
+!. 2. rcon[11] range gain [25.9436]
+!. 3. rcon[12] amplitude threshold in double** sortCluster(..) [0.2000]
+!. 4. rcon[13] number of real columns of matrix [8]
+!. 5. rcon[14] maximum number blocks to be iterated [30]
+!. if control is -2 only documentation is displayed and returned back
+!. if control is 0 file name taken from rcon file DataCarSide.txt if -1 single stepping is performed
+!. if control is 1 file name taken from rcon file DataCarSide.txt and output range is multiplied by Rgain 25.9436
+!. if synthetic = 1 tdata.txt data is used and a file synth.txt is created for future use
+!. tdata.txt is organised as a matrix each row describes the target
+!. first entry normalised frequency 2nd signal strength 3rd DOA in degrees
+!. number of rows are taken as number of targets
+!. You may contact Prof Kaluri V Ranga Rao at kaluri@ieee.org
+!. You may locate the source at or myGanesh
+!. D:\Edu-Institutions\JNTU-H\myResearch\IEEEtrans\ICSP2018\dataNfig\backup4Jun2018
+!. 11th Jun 2018 at Princeton NJ on my visit to see my daughter
+!. 30th Oct 2022 at Dublin OH on my visit to see my daughter
+!. 30th Oct 2022 at Dublin OH on my visit to see my daughter
+!. 30th Jun 2023 at Dublin OH on my visit to see my daughter
+!. 6th  Aug 2023 at Dublin OH on my visit to see my daughter
+!. 6th  Oct 2023 at Belle Mead NJ on my visit to see my daughter - partioning algo
+
+
+.............. simple documentaion .........updated on 6th Oct 2023
+!. opening of files C.csv D.csv unsort.csv CMP.csv
+
+
+!. DATA files will have only D=data,C=cloud for MATLAB use
+
+data columns [indx bin range kDoa muDoa X Y]
+clouds [indx start end sigmaX muX sigmaY muY]
+unable to create not even 1 block reduce kmax 2

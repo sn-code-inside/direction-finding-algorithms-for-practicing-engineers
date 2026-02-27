@@ -1,0 +1,21 @@
+clc; clear all;
+close all;
+N = 1024; K=1:N;
+fn = 0.05;
+u = randn([1 N]);
+p = 2*cos(2*pi*fn); r = 0.8;
+b = [1 -1]; a =[1 -r*p r*r];
+x = filter(b,a,u);
+h = fft(x); m = abs(h);
+
+s = 45; e = 55; 
+X =[s e N-e N-s]; Y = m(X);
+h(1:s) = h(1:s)*0; h(e:N-e) = h(e:N-e)*0;
+h(N-s:N) = h(N-s:N)*0;
+f1 =linspace(0,1,N);
+subplot(311); plot(f1,m,'-.r',f1,abs(h),'.-b');grid;
+y = real(fft(h)/N);
+subplot(312); plot(K,y);grid;
+z = y(1:4:N);
+f2 =linspace(0,1,length(z));
+subplot(313); plot(f2,abs(fft(z)));grid;

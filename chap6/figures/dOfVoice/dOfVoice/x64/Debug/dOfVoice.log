@@ -1,0 +1,16 @@
+﻿  cMath.cpp
+  detect.cpp
+  detectVois.cpp
+  eigR.cpp
+  kMusic.cpp
+  linDataSeg.cpp
+  memAlocFree.cpp
+  musik.cpp
+  phiShift.cpp
+  PitchClouds.cpp
+  rdwav.cpp
+  sliceVoice.cpp
+  ula.cpp
+  wavBlocks.cpp
+  Generating Code...
+  dOfVoice.vcxproj -> D:\myIndustry\Dr Kaluri Research House\newBook\Book On DF\chapOne\myBook\Book\chap6\figures\dOfVoice\x64\Debug\dOfVoice.exe

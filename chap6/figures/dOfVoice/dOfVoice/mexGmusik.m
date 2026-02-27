@@ -1,0 +1,1 @@
+mex gMusik.cpp memAlocFree.cpp  cMath.cpp musik.cpp kMusic.cpp eigR.cpp detect.cpp
