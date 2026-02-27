@@ -7,9 +7,9 @@
   phiShift.cpp
   timeDelay.cpp
   Generating Code...
-D:\myIndustry\Dr Kaluri Research House\newBook\Book On DF\chapOne\myBook\Book\chap3\figures\timeDelay\timeDelay\timeDelay.cpp(23,22): warning C4101: 'i': unreferenced local variable
-D:\myIndustry\Dr Kaluri Research House\newBook\Book On DF\chapOne\myBook\Book\chap3\figures\timeDelay\timeDelay\timeDelay.cpp(56,22): warning C4101: 'er': unreferenced local variable
-D:\myIndustry\Dr Kaluri Research House\newBook\Book On DF\chapOne\myBook\Book\chap3\figures\timeDelay\timeDelay\timeDelay.cpp(50,37): warning C4101: 'angleF': unreferenced local variable
-D:\myIndustry\Dr Kaluri Research House\newBook\Book On DF\chapOne\myBook\Book\chap3\figures\timeDelay\timeDelay\timeDelay.cpp(56,19): warning C4101: 'i': unreferenced local variable
-D:\myIndustry\Dr Kaluri Research House\newBook\Book On DF\chapOne\myBook\Book\chap3\figures\timeDelay\timeDelay\timeDelay.cpp(54,43): warning C4101: 'JkAngleSweep': unreferenced local variable
-  timeDelay.vcxproj -> D:\myIndustry\Dr Kaluri Research House\newBook\Book On DF\chapOne\myBook\Book\chap3\figures\timeDelay\x64\Debug\timeDelay.exe
+D:\Edu-Institutions\JNTU-H\myResearch\IEEEtrans\IEEE TechDefence 2023 Rome\paper\Tex\myBookCandMcode\chap3\figures\timeDelay\timeDelay\timeDelay.cpp(23,22): warning C4101: 'i': unreferenced local variable
+D:\Edu-Institutions\JNTU-H\myResearch\IEEEtrans\IEEE TechDefence 2023 Rome\paper\Tex\myBookCandMcode\chap3\figures\timeDelay\timeDelay\timeDelay.cpp(56,22): warning C4101: 'er': unreferenced local variable
+D:\Edu-Institutions\JNTU-H\myResearch\IEEEtrans\IEEE TechDefence 2023 Rome\paper\Tex\myBookCandMcode\chap3\figures\timeDelay\timeDelay\timeDelay.cpp(50,37): warning C4101: 'angleF': unreferenced local variable
+D:\Edu-Institutions\JNTU-H\myResearch\IEEEtrans\IEEE TechDefence 2023 Rome\paper\Tex\myBookCandMcode\chap3\figures\timeDelay\timeDelay\timeDelay.cpp(56,19): warning C4101: 'i': unreferenced local variable
+D:\Edu-Institutions\JNTU-H\myResearch\IEEEtrans\IEEE TechDefence 2023 Rome\paper\Tex\myBookCandMcode\chap3\figures\timeDelay\timeDelay\timeDelay.cpp(54,43): warning C4101: 'JkAngleSweep': unreferenced local variable
+  timeDelay.vcxproj -> D:\Edu-Institutions\JNTU-H\myResearch\IEEEtrans\IEEE TechDefence 2023 Rome\paper\Tex\myBookCandMcode\chap3\figures\timeDelay\x64\Debug\timeDelay.exe

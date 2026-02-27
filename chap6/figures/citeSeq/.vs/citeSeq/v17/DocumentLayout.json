@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\myIndustry\\Dr Kaluri Research House\\newBook\\Book On DF\\chapOne\\myBook\\Book\\chap6\\figures\\citeSeq\\",
+  "WorkspaceRootPath": "D:\\Edu-Institutions\\JNTU-H\\myResearch\\IEEEtrans\\IEEE TechDefence 2023 Rome\\paper\\Tex\\myBookCandMcode\\chap6\\figures\\citeSeq\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2DF58E58-9DD1-4426-8645-CA6043CEF10D}|citeSeq\\citeSeq.vcxproj|D:\\myIndustry\\Dr Kaluri Research House\\newBook\\Book On DF\\chapOne\\myBook\\Book\\chap6\\figures\\citeSeq\\citeSeq\\orderCite.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{2DF58E58-9DD1-4426-8645-CA6043CEF10D}|citeSeq\\citeSeq.vcxproj|D:\\Edu-Institutions\\JNTU-H\\myResearch\\IEEEtrans\\IEEE TechDefence 2023 Rome\\paper\\Tex\\myBookCandMcode\\chap6\\figures\\citeSeq\\citeSeq\\orderCite.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{2DF58E58-9DD1-4426-8645-CA6043CEF10D}|citeSeq\\citeSeq.vcxproj|solutionrelative:citeSeq\\orderCite.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -28,9 +28,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "orderCite.cpp",
-              "DocumentMoniker": "D:\\myIndustry\\Dr Kaluri Research House\\newBook\\Book On DF\\chapOne\\myBook\\Book\\chap6\\figures\\citeSeq\\citeSeq\\orderCite.cpp",
+              "DocumentMoniker": "D:\\Edu-Institutions\\JNTU-H\\myResearch\\IEEEtrans\\IEEE TechDefence 2023 Rome\\paper\\Tex\\myBookCandMcode\\chap6\\figures\\citeSeq\\citeSeq\\orderCite.cpp",
               "RelativeDocumentMoniker": "citeSeq\\orderCite.cpp",
-              "ToolTip": "D:\\myIndustry\\Dr Kaluri Research House\\newBook\\Book On DF\\chapOne\\myBook\\Book\\chap6\\figures\\citeSeq\\citeSeq\\orderCite.cpp",
+              "ToolTip": "D:\\Edu-Institutions\\JNTU-H\\myResearch\\IEEEtrans\\IEEE TechDefence 2023 Rome\\paper\\Tex\\myBookCandMcode\\chap6\\figures\\citeSeq\\citeSeq\\orderCite.cpp",
               "RelativeToolTip": "citeSeq\\orderCite.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",

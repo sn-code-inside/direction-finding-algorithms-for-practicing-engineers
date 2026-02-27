@@ -1,22 +1,22 @@
 ﻿  cMath.cpp
   covMatFromData.cpp
   eigHermit.cpp
-D:\myIndustry\Dr Kaluri Research House\newBook\Book On DF\chapOne\myBook\Book\chap4\figures\esprit\esprit\covMatFromData.cpp(7,14): warning C4101: 's': unreferenced local variable
-D:\myIndustry\Dr Kaluri Research House\newBook\Book On DF\chapOne\myBook\Book\chap4\figures\esprit\esprit\covMatFromData.cpp(32,18): warning C4101: 'Jk': unreferenced local variable
-D:\myIndustry\Dr Kaluri Research House\newBook\Book On DF\chapOne\myBook\Book\chap4\figures\esprit\esprit\covMatFromData.cpp(30,30): warning C4101: 'indx': unreferenced local variable
-D:\myIndustry\Dr Kaluri Research House\newBook\Book On DF\chapOne\myBook\Book\chap4\figures\esprit\esprit\covMatFromData.cpp(121,12): warning C4101: 'k': unreferenced local variable
-D:\myIndustry\Dr Kaluri Research House\newBook\Book On DF\chapOne\myBook\Book\chap4\figures\esprit\esprit\covMatFromData.cpp(121,9): warning C4101: 'j': unreferenced local variable
-D:\myIndustry\Dr Kaluri Research House\newBook\Book On DF\chapOne\myBook\Book\chap4\figures\esprit\esprit\covMatFromData.cpp(121,6): warning C4101: 'i': unreferenced local variable
-D:\myIndustry\Dr Kaluri Research House\newBook\Book On DF\chapOne\myBook\Book\chap4\figures\esprit\esprit\eigHermit.cpp(12,6): warning C4101: 'c': unreferenced local variable
-D:\myIndustry\Dr Kaluri Research House\newBook\Book On DF\chapOne\myBook\Book\chap4\figures\esprit\esprit\eigHermit.cpp(194,9): warning C4101: 'a': unreferenced local variable
-D:\myIndustry\Dr Kaluri Research House\newBook\Book On DF\chapOne\myBook\Book\chap4\figures\esprit\esprit\eigHermit.cpp(194,12): warning C4101: 'b': unreferenced local variable
+D:\Edu-Institutions\JNTU-H\myResearch\IEEEtrans\IEEE TechDefence 2023 Rome\paper\Tex\myBookCandMcode\chap4\figures\esprit\esprit\covMatFromData.cpp(20,14): warning C4101: 's': unreferenced local variable
+D:\Edu-Institutions\JNTU-H\myResearch\IEEEtrans\IEEE TechDefence 2023 Rome\paper\Tex\myBookCandMcode\chap4\figures\esprit\esprit\covMatFromData.cpp(45,18): warning C4101: 'Jk': unreferenced local variable
+D:\Edu-Institutions\JNTU-H\myResearch\IEEEtrans\IEEE TechDefence 2023 Rome\paper\Tex\myBookCandMcode\chap4\figures\esprit\esprit\covMatFromData.cpp(43,30): warning C4101: 'indx': unreferenced local variable
+D:\Edu-Institutions\JNTU-H\myResearch\IEEEtrans\IEEE TechDefence 2023 Rome\paper\Tex\myBookCandMcode\chap4\figures\esprit\esprit\covMatFromData.cpp(134,12): warning C4101: 'k': unreferenced local variable
+D:\Edu-Institutions\JNTU-H\myResearch\IEEEtrans\IEEE TechDefence 2023 Rome\paper\Tex\myBookCandMcode\chap4\figures\esprit\esprit\covMatFromData.cpp(134,9): warning C4101: 'j': unreferenced local variable
+D:\Edu-Institutions\JNTU-H\myResearch\IEEEtrans\IEEE TechDefence 2023 Rome\paper\Tex\myBookCandMcode\chap4\figures\esprit\esprit\covMatFromData.cpp(134,6): warning C4101: 'i': unreferenced local variable
+D:\Edu-Institutions\JNTU-H\myResearch\IEEEtrans\IEEE TechDefence 2023 Rome\paper\Tex\myBookCandMcode\chap4\figures\esprit\esprit\eigHermit.cpp(25,6): warning C4101: 'c': unreferenced local variable
+D:\Edu-Institutions\JNTU-H\myResearch\IEEEtrans\IEEE TechDefence 2023 Rome\paper\Tex\myBookCandMcode\chap4\figures\esprit\esprit\eigHermit.cpp(207,9): warning C4101: 'a': unreferenced local variable
+D:\Edu-Institutions\JNTU-H\myResearch\IEEEtrans\IEEE TechDefence 2023 Rome\paper\Tex\myBookCandMcode\chap4\figures\esprit\esprit\eigHermit.cpp(207,12): warning C4101: 'b': unreferenced local variable
   eigR.cpp
   esprit.cpp
-D:\myIndustry\Dr Kaluri Research House\newBook\Book On DF\chapOne\myBook\Book\chap4\figures\esprit\esprit\esprit.cpp(15,13): warning C4101: 'r': unreferenced local variable
+D:\Edu-Institutions\JNTU-H\myResearch\IEEEtrans\IEEE TechDefence 2023 Rome\paper\Tex\myBookCandMcode\chap4\figures\esprit\esprit\esprit.cpp(29,13): warning C4101: 'r': unreferenced local variable
   LsQComplex.cpp
   memAlocFree.cpp
   phi2doa.cpp
-D:\myIndustry\Dr Kaluri Research House\newBook\Book On DF\chapOne\myBook\Book\chap4\figures\esprit\esprit\phi2doa.cpp(13,22): warning C4101: 'temp': unreferenced local variable
+D:\Edu-Institutions\JNTU-H\myResearch\IEEEtrans\IEEE TechDefence 2023 Rome\paper\Tex\myBookCandMcode\chap4\figures\esprit\esprit\phi2doa.cpp(26,22): warning C4101: 'temp': unreferenced local variable
   ulaIQ.cpp
   Generating Code...
-  esprit.vcxproj -> D:\myIndustry\Dr Kaluri Research House\newBook\Book On DF\chapOne\myBook\Book\chap4\figures\esprit\x64\Debug\esprit.exe
+  esprit.vcxproj -> D:\Edu-Institutions\JNTU-H\myResearch\IEEEtrans\IEEE TechDefence 2023 Rome\paper\Tex\myBookCandMcode\chap4\figures\esprit\x64\Debug\esprit.exe

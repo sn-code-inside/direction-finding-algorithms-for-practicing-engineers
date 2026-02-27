@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\myIndustry\\Dr Kaluri Research House\\newBook\\Book On DF\\chapOne\\myBook\\Book\\chap6\\figures\\fmcwRadar\\",
+  "WorkspaceRootPath": "D:\\Edu-Institutions\\JNTU-H\\myResearch\\IEEEtrans\\IEEE TechDefence 2023 Rome\\paper\\Tex\\myBookCandMcode\\chap6\\figures\\fmcwRadar\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FE6B0CB4-C5E0-47B7-8F3A-09F73A77E751}|fmcwRadar\\fmcwRadar.vcxproj|D:\\myIndustry\\Dr Kaluri Research House\\newBook\\Book On DF\\chapOne\\myBook\\Book\\chap6\\figures\\fmcwRadar\\fmcwRadar\\fmcwRadar.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{FE6B0CB4-C5E0-47B7-8F3A-09F73A77E751}|fmcwRadar\\fmcwRadar.vcxproj|D:\\Edu-Institutions\\JNTU-H\\myResearch\\IEEEtrans\\IEEE TechDefence 2023 Rome\\paper\\Tex\\myBookCandMcode\\chap6\\figures\\fmcwRadar\\fmcwRadar\\fmcwRadar.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{FE6B0CB4-C5E0-47B7-8F3A-09F73A77E751}|fmcwRadar\\fmcwRadar.vcxproj|solutionrelative:fmcwRadar\\fmcwRadar.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -28,11 +28,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "fmcwRadar.cpp",
-              "DocumentMoniker": "D:\\myIndustry\\Dr Kaluri Research House\\newBook\\Book On DF\\chapOne\\myBook\\Book\\chap6\\figures\\fmcwRadar\\fmcwRadar\\fmcwRadar.cpp",
+              "DocumentMoniker": "D:\\Edu-Institutions\\JNTU-H\\myResearch\\IEEEtrans\\IEEE TechDefence 2023 Rome\\paper\\Tex\\myBookCandMcode\\chap6\\figures\\fmcwRadar\\fmcwRadar\\fmcwRadar.cpp",
               "RelativeDocumentMoniker": "fmcwRadar\\fmcwRadar.cpp",
-              "ToolTip": "D:\\myIndustry\\Dr Kaluri Research House\\newBook\\Book On DF\\chapOne\\myBook\\Book\\chap6\\figures\\fmcwRadar\\fmcwRadar\\fmcwRadar.cpp",
+              "ToolTip": "D:\\Edu-Institutions\\JNTU-H\\myResearch\\IEEEtrans\\IEEE TechDefence 2023 Rome\\paper\\Tex\\myBookCandMcode\\chap6\\figures\\fmcwRadar\\fmcwRadar\\fmcwRadar.cpp",
               "RelativeToolTip": "fmcwRadar\\fmcwRadar.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-08-06T23:17:30.009Z",
               "EditorCaption": ""

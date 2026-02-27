@@ -1,8 +1,19 @@
-﻿  CaponMethod.cpp
-D:\myIndustry\Dr Kaluri Research House\newBook\Book On DF\chapOne\myBook\Book\chap4\figures\stfBeamSteer\stfBeamSteer\CaponMethod.cpp(138,17): warning C4101: 'sinKm1': unreferenced local variable
-D:\myIndustry\Dr Kaluri Research House\newBook\Book On DF\chapOne\myBook\Book\chap4\figures\stfBeamSteer\stfBeamSteer\CaponMethod.cpp(137,21): warning C4101: 'rPowK': unreferenced local variable
-D:\myIndustry\Dr Kaluri Research House\newBook\Book On DF\chapOne\myBook\Book\chap4\figures\stfBeamSteer\stfBeamSteer\CaponMethod.cpp(138,9): warning C4101: 'sinKp1': unreferenced local variable
-D:\myIndustry\Dr Kaluri Research House\newBook\Book On DF\chapOne\myBook\Book\chap4\figures\stfBeamSteer\stfBeamSteer\CaponMethod.cpp(137,28): warning C4101: 'rPowKm2': unreferenced local variable
+﻿  abcUla.cpp
+  CaponMethod.cpp
+D:\Edu-Institutions\JNTU-H\myResearch\IEEEtrans\IEEE TechDefence 2023 Rome\paper\Tex\myBookCandMcode\chap5\figures\stfBeamSteer\stfBeamSteer\CaponMethod.cpp(151,17): warning C4101: 'sinKm1': unreferenced local variable
+D:\Edu-Institutions\JNTU-H\myResearch\IEEEtrans\IEEE TechDefence 2023 Rome\paper\Tex\myBookCandMcode\chap5\figures\stfBeamSteer\stfBeamSteer\CaponMethod.cpp(150,21): warning C4101: 'rPowK': unreferenced local variable
+D:\Edu-Institutions\JNTU-H\myResearch\IEEEtrans\IEEE TechDefence 2023 Rome\paper\Tex\myBookCandMcode\chap5\figures\stfBeamSteer\stfBeamSteer\CaponMethod.cpp(151,9): warning C4101: 'sinKp1': unreferenced local variable
+D:\Edu-Institutions\JNTU-H\myResearch\IEEEtrans\IEEE TechDefence 2023 Rome\paper\Tex\myBookCandMcode\chap5\figures\stfBeamSteer\stfBeamSteer\CaponMethod.cpp(150,28): warning C4101: 'rPowKm2': unreferenced local variable
+  detectPeaks.cpp
+  memAlocFree.cpp
+  beamform.cpp
+  rotationLogic.cpp
+D:\Edu-Institutions\JNTU-H\myResearch\IEEEtrans\IEEE TechDefence 2023 Rome\paper\Tex\myBookCandMcode\chap5\figures\stfBeamSteer\stfBeamSteer\rotationLogic.cpp(45,6): warning C4101: 'zone': unreferenced local variable
+D:\Edu-Institutions\JNTU-H\myResearch\IEEEtrans\IEEE TechDefence 2023 Rome\paper\Tex\myBookCandMcode\chap5\figures\stfBeamSteer\stfBeamSteer\rotationLogic.cpp(46,21): warning C4101: 'validphi': unreferenced local variable
+D:\Edu-Institutions\JNTU-H\myResearch\IEEEtrans\IEEE TechDefence 2023 Rome\paper\Tex\myBookCandMcode\chap5\figures\stfBeamSteer\stfBeamSteer\rotationLogic.cpp(96,27): warning C4101: 'k': unreferenced local variable
+  stateMethod.cpp
+D:\Edu-Institutions\JNTU-H\myResearch\IEEEtrans\IEEE TechDefence 2023 Rome\paper\Tex\myBookCandMcode\chap5\figures\stfBeamSteer\stfBeamSteer\stateMethod.cpp(262,19): warning C4101: 'temp': unreferenced local variable
+  stfSteer.cpp
   ula3doaStf.cpp
   Generating Code...
-  stfBeamSteer.vcxproj -> D:\myIndustry\Dr Kaluri Research House\newBook\Book On DF\chapOne\myBook\Book\chap4\figures\stfBeamSteer\x64\Debug\stfBeamSteer.exe
+  stfBeamSteer.vcxproj -> D:\Edu-Institutions\JNTU-H\myResearch\IEEEtrans\IEEE TechDefence 2023 Rome\paper\Tex\myBookCandMcode\chap5\figures\stfBeamSteer\x64\Debug\stfBeamSteer.exe

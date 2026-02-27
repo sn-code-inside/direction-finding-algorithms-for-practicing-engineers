@@ -1,8 +1,8 @@
-!. Opening a log file car-car-bike.log Sun Jan 11 07:53:04 2026
+!. Opening a log file car-car-bike.log Fri Feb 27 23:32:35 2026
 
 !. car-car-bike.txt of size [19588782] Thu Jan 11 12:02:30 2018
 
-!. current working directory D:\myIndustry\Dr Kaluri Research House\newBook\Book On DF\chapOne\myBook\Book\chap6\figures\fmcwRadar\fmcwRadar
+!. current working directory D:\Edu-Institutions\JNTU-H\myResearch\IEEEtrans\IEEE TechDefence 2023 Rome\paper\Tex\myBookCandMcode\chap6\figures\fmcwRadar\fmcwRadar
 !. int rdRcon(..)
 !. 3rd value in rcon.txt file is [1]
    if -1 single stepping 
@@ -17,7 +17,7 @@
 !. I will Fix it for you probably data is from TI processor
 .............. simple documentaion .........updated on 16th Sep 2022
 
-!. reading datafile on Sun Jan 11 07:53:04 2026
+!. reading datafile on Fri Feb 27 23:32:35 2026
 
 !. car-car-bike.txt of size [19588782] Thu Jan 11 12:02:30 2018
 
@@ -79,6 +79,5 @@ clouds [indx start end sigmaX muX sigmaY muY]
 !. --->Capture rangeSpk.csv and phase.csv onto files at [2][8]
 !. --->Capture rangeSpk.csv and phase.csv onto files at [2][9]
 !. Closing files at 3.0
-!. warning: Target [0] Phase peaks [2] < (3)
 !. warning: Target [0] Phase peaks [2] < (3)
 !. warning: Target [0] Phase peaks [2] < (3)

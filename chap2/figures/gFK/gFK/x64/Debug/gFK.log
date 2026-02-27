@@ -1,13 +1,13 @@
 ﻿  cMath.cpp
   detect.cpp
   gFK.cpp
-D:\myIndustry\Dr Kaluri Research House\newBook\Book On DF\chapOne\myBook\Book\chap2\figures\gFK\gFK\gFK.cpp(49,9): warning C4101: 'k': unreferenced local variable
-D:\myIndustry\Dr Kaluri Research House\newBook\Book On DF\chapOne\myBook\Book\chap2\figures\gFK\gFK\gFK.cpp(49,12): warning C4101: 'j': unreferenced local variable
-D:\myIndustry\Dr Kaluri Research House\newBook\Book On DF\chapOne\myBook\Book\chap2\figures\gFK\gFK\gFK.cpp(131,18): warning C4101: 'aS': unreferenced local variable
-D:\myIndustry\Dr Kaluri Research House\newBook\Book On DF\chapOne\myBook\Book\chap2\figures\gFK\gFK\gFK.cpp(131,15): warning C4101: 'aC': unreferenced local variable
   gFKsteer.cpp
-D:\myIndustry\Dr Kaluri Research House\newBook\Book On DF\chapOne\myBook\Book\chap2\figures\gFK\gFK\gFKsteer.cpp(37,73): warning C4551: function call missing argument list
+D:\Edu-Institutions\JNTU-H\myResearch\IEEEtrans\IEEE TechDefence 2023 Rome\paper\Tex\myBookCandMcode\chap2\figures\gFK\gFK\gFK.cpp(49,9): warning C4101: 'k': unreferenced local variable
+D:\Edu-Institutions\JNTU-H\myResearch\IEEEtrans\IEEE TechDefence 2023 Rome\paper\Tex\myBookCandMcode\chap2\figures\gFK\gFK\gFK.cpp(49,12): warning C4101: 'j': unreferenced local variable
+D:\Edu-Institutions\JNTU-H\myResearch\IEEEtrans\IEEE TechDefence 2023 Rome\paper\Tex\myBookCandMcode\chap2\figures\gFK\gFK\gFK.cpp(131,18): warning C4101: 'aS': unreferenced local variable
+D:\Edu-Institutions\JNTU-H\myResearch\IEEEtrans\IEEE TechDefence 2023 Rome\paper\Tex\myBookCandMcode\chap2\figures\gFK\gFK\gFK.cpp(131,15): warning C4101: 'aC': unreferenced local variable
+D:\Edu-Institutions\JNTU-H\myResearch\IEEEtrans\IEEE TechDefence 2023 Rome\paper\Tex\myBookCandMcode\chap2\figures\gFK\gFK\gFKsteer.cpp(37,73): warning C4551: function call missing argument list
   memAlocFree.cpp
   pProces.cpp
   Generating Code...
-  gFK.vcxproj -> D:\myIndustry\Dr Kaluri Research House\newBook\Book On DF\chapOne\myBook\Book\chap2\figures\gFK\x64\Debug\gFK.exe
+  gFK.vcxproj -> D:\Edu-Institutions\JNTU-H\myResearch\IEEEtrans\IEEE TechDefence 2023 Rome\paper\Tex\myBookCandMcode\chap2\figures\gFK\x64\Debug\gFK.exe

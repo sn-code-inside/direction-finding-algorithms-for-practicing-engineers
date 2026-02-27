@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\myIndustry\\Dr Kaluri Research House\\newBook\\Book On DF\\chapOne\\myBook\\Book\\chap2\\figures\\eigen\\",
+  "WorkspaceRootPath": "D:\\Edu-Institutions\\JNTU-H\\myResearch\\IEEEtrans\\IEEE TechDefence 2023 Rome\\paper\\Tex\\myBookCandMcode\\chap2\\figures\\eigen\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F0B861D6-44B5-4AE5-9A25-DBE60D726FFD}|eigen\\eigen.vcxproj|D:\\myIndustry\\Dr Kaluri Research House\\newBook\\Book On DF\\chapOne\\myBook\\Book\\chap2\\figures\\eigen\\eigen\\rdWrite.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{F0B861D6-44B5-4AE5-9A25-DBE60D726FFD}|eigen\\eigen.vcxproj|D:\\Edu-Institutions\\JNTU-H\\myResearch\\IEEEtrans\\IEEE TechDefence 2023 Rome\\paper\\Tex\\myBookCandMcode\\chap2\\figures\\eigen\\eigen\\rdWrite.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F0B861D6-44B5-4AE5-9A25-DBE60D726FFD}|eigen\\eigen.vcxproj|solutionrelative:eigen\\rdWrite.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0B861D6-44B5-4AE5-9A25-DBE60D726FFD}|eigen\\eigen.vcxproj|D:\\myIndustry\\Dr Kaluri Research House\\newBook\\Book On DF\\chapOne\\myBook\\Book\\chap2\\figures\\eigen\\eigen\\memAlocFree.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{F0B861D6-44B5-4AE5-9A25-DBE60D726FFD}|eigen\\eigen.vcxproj|D:\\Edu-Institutions\\JNTU-H\\myResearch\\IEEEtrans\\IEEE TechDefence 2023 Rome\\paper\\Tex\\myBookCandMcode\\chap2\\figures\\eigen\\eigen\\memAlocFree.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F0B861D6-44B5-4AE5-9A25-DBE60D726FFD}|eigen\\eigen.vcxproj|solutionrelative:eigen\\memAlocFree.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -32,11 +32,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "rdWrite.cpp",
-              "DocumentMoniker": "D:\\myIndustry\\Dr Kaluri Research House\\newBook\\Book On DF\\chapOne\\myBook\\Book\\chap2\\figures\\eigen\\eigen\\rdWrite.cpp",
+              "DocumentMoniker": "D:\\Edu-Institutions\\JNTU-H\\myResearch\\IEEEtrans\\IEEE TechDefence 2023 Rome\\paper\\Tex\\myBookCandMcode\\chap2\\figures\\eigen\\eigen\\rdWrite.cpp",
               "RelativeDocumentMoniker": "eigen\\rdWrite.cpp",
-              "ToolTip": "D:\\myIndustry\\Dr Kaluri Research House\\newBook\\Book On DF\\chapOne\\myBook\\Book\\chap2\\figures\\eigen\\eigen\\rdWrite.cpp",
+              "ToolTip": "D:\\Edu-Institutions\\JNTU-H\\myResearch\\IEEEtrans\\IEEE TechDefence 2023 Rome\\paper\\Tex\\myBookCandMcode\\chap2\\figures\\eigen\\eigen\\rdWrite.cpp",
               "RelativeToolTip": "eigen\\rdWrite.cpp",
-              "ViewState": "AgIAADYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-08-06T22:07:48.721Z",
               "EditorCaption": ""
@@ -45,14 +45,13 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "memAlocFree.cpp",
-              "DocumentMoniker": "D:\\myIndustry\\Dr Kaluri Research House\\newBook\\Book On DF\\chapOne\\myBook\\Book\\chap2\\figures\\eigen\\eigen\\memAlocFree.cpp",
+              "DocumentMoniker": "D:\\Edu-Institutions\\JNTU-H\\myResearch\\IEEEtrans\\IEEE TechDefence 2023 Rome\\paper\\Tex\\myBookCandMcode\\chap2\\figures\\eigen\\eigen\\memAlocFree.cpp",
               "RelativeDocumentMoniker": "eigen\\memAlocFree.cpp",
-              "ToolTip": "D:\\myIndustry\\Dr Kaluri Research House\\newBook\\Book On DF\\chapOne\\myBook\\Book\\chap2\\figures\\eigen\\eigen\\memAlocFree.cpp",
+              "ToolTip": "D:\\Edu-Institutions\\JNTU-H\\myResearch\\IEEEtrans\\IEEE TechDefence 2023 Rome\\paper\\Tex\\myBookCandMcode\\chap2\\figures\\eigen\\eigen\\memAlocFree.cpp",
               "RelativeToolTip": "eigen\\memAlocFree.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-08-06T22:07:38.18Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-06T22:07:38.18Z"
             }
           ]
         }
