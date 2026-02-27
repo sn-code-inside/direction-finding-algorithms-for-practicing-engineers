@@ -1,0 +1,148 @@
+Chap1Prog.txt 
+ 
+ 
+ 
+ 
+
+
+figAudio &
+Ar2Ai.mexw64 &
+ds2nfu.m & 
+figAuBm.eps & 
+figAudio.eps & 
+figAuMu.eps & 
+gMuForSound.m & 
+gMusik.mexw64 & 
+label211.m & 
+label321.m & 
+labelPolar.m & 
+obj.csv &
+polarDS2nfu.m & 
+setUP.jpg &
+ula.mat & 
+ula1.mat & 
+ula10.mat & 
+ula11.mat & 
+ula12.mat & 
+ula13.mat & 
+ula14.mat & 
+ula15.mat & 
+ula16.mat & 
+ula17.mat & 
+ula18.mat & 
+ula19.mat & 
+ula2.mat & 
+ula20.mat & 
+ula21.mat & 
+ula22.mat & 
+ula23.mat & 
+ula24.mat & 
+ula25.mat & 
+ula26.mat & 
+ula27.mat & 
+ula28.mat & 
+ula29.mat & 
+ula3.mat & 
+ula30.mat & 
+ula31.mat & 
+ula32.mat & 
+ula33.mat & 
+ula34.mat & 
+ula35.mat & 
+ula36.mat & 
+ula37.mat & 
+ula38.mat & 
+ula39.mat & 
+ula4.mat & 
+ula40.mat & 
+ula5.mat & 
+ula6.mat & 
+ula7.mat & 
+ula8.mat & 
+ula9.mat & 
+ulaAu6.jpg &
+
+figBeam &
+Beams2.eps & 
+beamStr.eps & 
+closeDoa.txt &
+ds2nfu.m & 
+easyMusic.m & 
+figBeam.m & 
+fixedBeam.m & 
+getRgD.mexw64 & 
+gMusic.mexw64 & 
+initR.mexw64 & 
+iRdrFoot.jpg &
+labelFigBeam.m & 
+labelFxBm.m & 
+polarDS2nfu.m & 
+rcon.txt &
+twoCr.txt &
+x8M350Hz.mat & 
+
+figDoa &
+ds2nfu.m & 
+pdf_y.m & 
+rvDoa.m & 
+
+figKmusic &
+A0803.txt &
+ds2nfu.m & 
+figKMuSpk.m & 
+getRgD.mexw64 & 
+initR.mexw64 & 
+iRdrJan.asv &
+kMusic.eps & 
+labelgFKpeaks.m & 
+labelPhasors.m & 
+muspk.eps & 
+phasor.eps & 
+polarDS2nfu.m & 
+rcon.txt & 
+twoBot.jpg &
+wbSpk.eps & 
+wbSpk.m & 
+
+figMusic &
+closeDoa.jpg & 
+closeDoa.txt 
+ds2nfu.m & 
+figMuSpk.m & 
+getRgD.mexw64 & 
+initR.mexw64 & 
+input-2cr-15M-N25deg-10M-N27deg.txt 
+iRdrJan.asv 
+labelMu211.m & 
+muspk.eps & 
+rcon.txt 
+
+figPhi2Theta &
+ds2nfu.m & 
+label311.m & 
+label312.m & 
+phi2theta.eps & 
+phi2theta.m & 
+
+figTdoa &
+delayT.mexw64 & 
+ds2nfu.m & 
+JkC.csv & 
+label211.m & 
+label212.m & 
+Shift.csv &
+tdoa.eps & 
+tdoa.m & 
+tdoaC.jpg &
+ 
+figUlaPhase &
+abcUla.mexw64 & 
+ds2nfu.m & 
+figUlaPhase.eps & 
+figUlaPhase.m & 
+labelUla.m & 
+
+chap1\figures\tstPolar\ds2nfu.m & 
+chap1\figures\tstPolar\polarDS2nfu.m & 
+chap1\figures\tstPolar\tstp.m & 
+
