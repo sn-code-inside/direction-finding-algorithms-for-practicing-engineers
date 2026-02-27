@@ -1,0 +1,30 @@
+function [] = labelFig3(phiSpk,doas,tgtNum,bin)
+%[] = labelFig3(phiSpk,doas,tgtNum) Summary of this function goes here
+%   Detailed explanation goes here
+        figure(3); 
+        lenPhi =  length(phiSpk);
+        phi = linspace(-180,180,lenPhi); theta = asind(phi/180);
+        mxPhi = max(phiSpk(tgtNum,:)); kMuDoa = doas(tgtNum);
+        doasX =[kMuDoa kMuDoa]; doasY =[0 mxPhi];
+        skip = 20;
+        thetaSmpl = theta(1:skip:lenPhi); 
+        phiSpkSmpl = phiSpk(tgtNum,1:skip:lenPhi);
+        subplot(311); 
+        plot(thetaSmpl,phiSpkSmpl,'.-r',theta,phiSpk(tgtNum,:),'-.k');grid;
+        hold on;
+        plot(doasX,doasY,'o-b','MarkerSize', 3,'MarkerFaceColor','blue');
+        hold off;
+        sA = ['DOA at bin ' num2str(bin) ' using $\kappa$MUSIC']
+        title(sA,'interpreter', 'latex');
+        xlabel('$\theta^\circ$','interpreter', 'latex');
+        ylabel('$\|h(\theta)\|$','interpreter', 'latex');
+        tik = sort([-90 -60 -30 0 30 60 90 round(kMuDoa,2)]);
+        xticks(tik);
+
+        xa = [theta(160) theta(160)];
+        ya = [1.5*phiSpk(tgtNum,160) phiSpk(tgtNum,160)];
+        [xaf,yaf] = dsxy2figxy(xa,ya); % Convert to normalized figure units
+        annotation('textarrow',xaf,yaf,'String',...
+            ['$$MUSIC Spectru'],'color','blue','interpreter', 'latex');
+
+end

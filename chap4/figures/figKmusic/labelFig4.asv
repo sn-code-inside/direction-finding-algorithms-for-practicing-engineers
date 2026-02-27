@@ -1,0 +1,15 @@
+function [] = labelFig4(config,muS,muDoas)
+%[] = labelFig4(config,muS) Summary of this function goes here
+%   Detailed explanation goes here
+        numberOfTgts = config(5);
+        lenMuS =  length(muS);
+        phi = linspace(-180,180,lenMuS); theta = asind(phi/180);
+        mxMuS = max(muS');
+        doasX =[muDoas muDoas]; doasY =[0 mxPhi];
+        figure(4)
+        subplot(311); plot(theta,muS);grid
+        for k=1:numberOfTgts
+        [pn ln] = findpeaks(muS(k,:));
+        hold on; plot(theta(ln),pn,'ko','MarkerSize', 4,'MarkerFaceColor','b'); hold off;
+        end
+end

@@ -1,0 +1,30 @@
+function [r phi st] = labelFig2(config,s,e,tgtNum,K,spk,bins,w,binsX,binsY)
+%[] = labelFig2(s,e,K,spk,bins,w,binsX,binsY,bin) Summary of this function goes here
+%   Detailed explanation goes here
+        figure(2);
+        numberOfTgts = config(5);
+        subplot(311); plot(K(s:e),spk(s:e),'.-b',K(s:e),spk(s:e),'or',binsX,binsY,'^-');grid;
+        bin = bins(tgtNum);
+        s1 =[' gFK peaks and Fractional Bins '];
+        title([' zoom at bin ' num2str(bin)  s1],'color','blue','interpreter', 'latex'); 
+        ylabel(' $\|FFT(s_k)\|$ ','interpreter', 'latex');
+        xlabel(' bin Number ','interpreter', 'latex');
+        xa = [bin-1 binsX(1,2)*0.995];
+        ya = [1.1*binsY(2,2) binsY(2,2)];
+        [xaf,yaf] = dsxy2figxy(xa,ya); % Convert to normalized figure units
+        annotation('textarrow',xaf,yaf,'String',...
+            ['f = ' num2str(binsX(1,:),5)],'color','blue','interpreter', 'latex');
+        %text(19.5,0.9,s1,'color','black','interpreter', 'latex');
+        phi = angle(w)*180/pi;  r = abs(w); ph = abs(phi);
+        text(15.8,0.65,['$\varphi$ = ' num2str(phi(1),3) '$^\circ$ ' ...
+            num2str(phi(2),3) '$^\circ$ ' num2str(phi(3),3) ...
+            '$^\circ$ ' num2str(phi(4),3) '$^\circ$'],...
+            'color','black','interpreter', 'latex');
+        text(15.6,0.15,['$A$ = ' num2str(r,2)],'color','red','interpreter', 'latex');
+        w0 = [ num2str(r(1),2) '$e^{-j' num2str(ph(1),3) '^\circ}$'];
+        w1 = [ ' + ' num2str(r(2),2) '$e^{-j' num2str(ph(2),3) '^\circ}z^{-1}$'];
+        w2 = [ ' + ' num2str(r(3),2) '$e^{-j' num2str(ph(3),3) '^\circ}z^{-2}$'];
+        w3 = [ ' + ' num2str(r(4),2) '$e^{-j' num2str(ph(4),3) '^\circ}z^{-3}$'];
+        st = ['$h(z)$ = ' w0 w1 w2 w3];
+        text(15.8,-0.8,st,'color','blue','interpreter', 'latex');
+end
