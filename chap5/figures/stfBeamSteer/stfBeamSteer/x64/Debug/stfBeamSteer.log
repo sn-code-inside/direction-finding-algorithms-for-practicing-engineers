@@ -1,0 +1,8 @@
+﻿  CaponMethod.cpp
+D:\myIndustry\Dr Kaluri Research House\newBook\Book On DF\chapOne\myBook\Book\chap4\figures\stfBeamSteer\stfBeamSteer\CaponMethod.cpp(138,17): warning C4101: 'sinKm1': unreferenced local variable
+D:\myIndustry\Dr Kaluri Research House\newBook\Book On DF\chapOne\myBook\Book\chap4\figures\stfBeamSteer\stfBeamSteer\CaponMethod.cpp(137,21): warning C4101: 'rPowK': unreferenced local variable
+D:\myIndustry\Dr Kaluri Research House\newBook\Book On DF\chapOne\myBook\Book\chap4\figures\stfBeamSteer\stfBeamSteer\CaponMethod.cpp(138,9): warning C4101: 'sinKp1': unreferenced local variable
+D:\myIndustry\Dr Kaluri Research House\newBook\Book On DF\chapOne\myBook\Book\chap4\figures\stfBeamSteer\stfBeamSteer\CaponMethod.cpp(137,28): warning C4101: 'rPowKm2': unreferenced local variable
+  ula3doaStf.cpp
+  Generating Code...
+  stfBeamSteer.vcxproj -> D:\myIndustry\Dr Kaluri Research House\newBook\Book On DF\chapOne\myBook\Book\chap4\figures\stfBeamSteer\x64\Debug\stfBeamSteer.exe

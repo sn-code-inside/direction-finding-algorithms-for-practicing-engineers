@@ -1,0 +1,26 @@
+clc;
+clear all; close All;
+D = 3; % number of emitters
+DOAS = [40, -70, 50]; % angles for ULA A
+POWS = [4.0, 4.0, 4.0]; PHIS = [0, 0,0];
+M = 10; maxk = 256; d_by_lambda = 0.5; r_by_lambda = 15.2;
+N = 10; fn = 1/N; stdNoise = 1;
+ 
+
+[sA, sB, sC,Ha,Hb,Hc,SNR] = abcUla(D, DOAS, POWS, PHIS, M, maxk, ...
+    d_by_lambda, r_by_lambda, fn,stdNoise);
+kmax = 80; se(1) = 5; se(2) = 85; r = 0.95;
+[Jk theta doaA] = stfSweepDoa(Ha,Hb,Hc,r,d_by_lambda,kmax,se,D);
+
+%%
+subplot(311); plot(theta(1,:),Jk(1,:),'.-r');grid;
+hold on; plot(doaA(1,:),doaA(2,:),'ko','MarkerSize', 4,'MarkerFaceColor','b'); hold off;
+%%
+% subplot(312); plot(thetaB,Jkb,'.-b');grid;
+% hold on; plot(doaB(:,1),doaB(:,2),'ko','MarkerSize', 4,'MarkerFaceColor','r'); hold off;
+%%
+% [Jkc thetaC doaC] = stfSweepDoa(Hc,r,d_by_lambda,kmax,se,D);
+% subplot(313); plot(thetaC,Jkc,'.-k');grid;
+% hold on; plot(doaC(:,1),doaC(:,2),'ko','MarkerSize', 4,'MarkerFaceColor','c'); hold off;
+
+
