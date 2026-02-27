@@ -1,0 +1,140 @@
+#include "gFKtst.h"
+#include "matrix.h"
+#include "mex.h"   /* This one is required */
+//  ..................................................................
+void mexFunction(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
+{
+    double *inputAr;
+    double *inputAi;
+    double *inputPr;
+    double *inputPhiFnPtr;
+    double *binsPtr;
+    double *steerPtr, *steerPti;
+//    double *EnPtr, *EnPti;
+//    double *steerAvgPtr, *steerAvgPti;
+    double *SPtr, *SPti,*APtr,*APti;
+    double *sgPtr,*rgMatPtr;
+//    double *doasPtr,*MudoasPtr,*sPtr,*sAvgPtr,*ObjPtr,*rgMatPtr;
+//    double *dataPtr;
+    int p,kt,r,c;
+//    
+//  .. c code declarations
+    int rc[2],rcA[2];
+    complex **A,**steering, ** S; 
+    double* config, * sg;
+    int* bins, numberOfTgts, numOfPhaseSpecSamples;
+    int cby2, i;
+    int kmax = rcA[0];
+    int zerofill = 8, error, LenConfig = 20,flag;
+    double * sAvg, ** rgMat;
+    double fn = 0.2, phiD = 0.0;
+    config = (double*)malloc(LenConfig * sizeof(double));
+    for (i = 0; i < LenConfig; i++) config[i] = 0.0;
+    
+    if ( (nlhs != 6) || (nrhs != 1) )
+    {
+        printf("  Usage Error Parameters Left Hand Side = %d(10) .. Right Hand Side = %d(2) \n",nlhs,nrhs);
+        printf("  fileName(ADC data) is read from rcon.txt\n");
+        printf("  data format blank seperated 9 columns sample row given below\n");
+        printf("  68.0 -307.0 8.0 -462.0 173.0 -149.0 308.0 182.0 8202\n");
+//        printf("  configPar Output\n");
+        printf("  updated on 4th  July 2023 @ Dublin Ohio\n");
+        printf("  updated on 30th  Apr 2024 @ Belle Mead NJ\n");
+        printf("  alpha = config[0]; Fs = config[1]; control = (int)(config[2]);\n");
+        printf("  synthetic = (int)(config[3]); numberOfTgts = (int)(config[4]);\n"); 
+        printf("  numOfPhaseSpecSamples = (int)(config[5]);\n");
+        printf("  kmax = (int)(config[6]); FFTsamples = (int)(config[7]);\n");
+
+        printf("  [13 parameters given below] = getRgD(ComplexADCdata,config);\n");
+        printf("  [bins,str,doas,muDoas,s,spk,muS,S,A,strAvg,rgMat,clouds,En] ...\n");
+        printf("  = getRgD(file,config');\n");
+
+        printf("  0. binsPtr of numberOfTgts, 1, mxREAL\n");
+        printf("  1. steerPt numberOfTgts, cby2, mxCOMPLEX\n");
+        printf("  2. doasPtr numberOfTgts, 1, mxREAL\n");
+        printf("  3. MudoasPtr numberOfTgts, 1, mxREAL\n");
+        printf("  4. sPtr numberOfTgts, numOfPhaseSpecSamples, mxREAL\n");
+        printf("  5. sAvgPtr rcA[0], 1, mxREAL\n");
+        printf("  6. ObjPtr numberOfTgts, numOfPhaseSpecSamples, mxREAL\n");
+        printf("  7. SPt rcA[0], cby2, mxCOMPLEX\n");
+        printf("  8. APt rcA[0], cby2, mxCOMPLEX\n");
+        printf("  9. steerAvgPt numberOfTgts, cby2, mxCOMPLEX\n"); 
+        printf("  10 rgMatPtr numberOfTgts, cby2, mxREAL\n");
+        printf("  11 dataPtr numberClusters 4, mxREAL\n");
+        printf("  12 En MUSIC steering Vector, numberRows cby2, mxCOMPLEX\n");
+
+        return;
+    } 
+    r = (int)(mxGetM(prhs[0])); LenConfig = (int)(mxGetN(prhs[0]));
+
+    if ( r != 1) 
+    { 
+        printf(" try transpose \n");
+        printf(" size of input matrix %d by %d\n",r,LenConfig);
+        return;
+    } else
+    {
+            inputPr = mxGetPr(prhs[0]); config = myAlloc(LenConfig);
+            for (i = 0; i < LenConfig; i++) config[i] = inputPr[i];
+    }
+    r = (int)(mxGetM(prhs[1])); c = (int)(mxGetN(prhs[0]));
+    if (r !=1 ) {printf(" try transpose \n");
+        printf(" size of input matrix %d by %d\n",r,c);
+        return;}
+    if (c != 2 ) {printf("need two parameters fn and phiD\n"); return;}
+    else {}
+    numberOfTgts = (int)(config[4]); numOfPhaseSpecSamples = (int)(config[5]);
+    kmax = (int)(config[6]);  bins = (int*)malloc(numberOfTgts * sizeof(int));
+    rc[0] = (int)(config[7]); rc[1] = (int)(config[13]); cby2 = rc[1] / 2;
+    rcA[0] = rc[0]; rcA[1] = cby2;
+    printf("size of matrix A %d by %d",rcA[0],rcA[1]);
+    A = myAlloc2Complex(rcA[0], rcA[1]);
+
+    populate(A, rcA, fn, phiD);
+
+    rgMat = myAlloc2(numberOfTgts, cby2);
+    sAvg = myAlloc(rcA[0]);
+    S = myAlloc2Complex(rcA[0], cby2);
+    steering = myAlloc2Complex(numberOfTgts, cby2);
+    sg = (double*)malloc(numberOfTgts * sizeof(double));
+    rgMat = getPar(A, config, bins, steering, sAvg, S, rgMat, sg,&error);
+    numberOfTgts = (int)(config[4]);
+//  Transfer the output
+    plhs[0] = mxCreateDoubleMatrix(rcA[0], cby2, mxCOMPLEX);
+    SPtr = mxGetPr(plhs[0]); SPti = mxGetPi(plhs[0]);
+    plhs[1] = mxCreateDoubleMatrix(rcA[0], cby2, mxCOMPLEX);
+    APtr = mxGetPr(plhs[1]); APti = mxGetPi(plhs[1]); 
+   for (p = 0; p < rcA[0]; p++) // rows
+    {
+        for (i = 0; i < cby2; i++)
+        {
+                kt = i*rcA[0]+p;
+                SPtr[kt]  = S[p][i].r;
+                SPti[kt]  = S[p][i].i;
+                APtr[kt]  = A[p][i].r; 
+                APti[kt]  = A[p][i].i; 
+        }
+   }
+
+  plhs[2] = mxCreateDoubleMatrix(numberOfTgts, cby2, mxCOMPLEX);
+  steerPtr = mxGetPr(plhs[2]); steerPti = mxGetPi(plhs[2]);  
+  plhs[3] = mxCreateDoubleMatrix(numberOfTgts, cby2, mxREAL);
+  rgMatPtr = mxGetPr(plhs[3]);  
+  for (p = 0; p < numberOfTgts; p++) // rows
+    {
+        for (i = 0; i < cby2; i++)
+        {
+                kt = i*numberOfTgts+p;
+                steerPtr[kt]     = steering[p][i].r;
+                steerPti[kt]     = steering[p][i].i;
+                rgMatPtr[kt]     = rgMat[p][i];
+        }
+    } 
+    plhs[4] = mxCreateDoubleMatrix(numberOfTgts, 1, mxREAL);
+    binsPtr = mxGetPr(plhs[4]);
+    plhs[5] = mxCreateDoubleMatrix(numberOfTgts, 1, mxREAL);
+    sgPtr = mxGetPr(plhs[5]);
+    for (p = 0; p < numberOfTgts; p++) 
+    { binsPtr[p] = bins[p]; sgPtr[p] = sg[p];}
+    return;
+}

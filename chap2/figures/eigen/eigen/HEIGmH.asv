@@ -1,0 +1,90 @@
+#include "mex.h"   /* This one is required */
+#include "eigen.h"
+void usage();
+void CeqABtrnsp(complex**, complex**, int, int, const char*);
+void mexFunction(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
+{
+    double *inputAr,*inputAi;
+    double *EnPtr, *EnPti,*Lptr, *JkPtr;
+//  ...............
+    complex** H, ** E;
+    double* Lh, * Jk;
+    int r, c,JkL;
+    JkL = 14;
+    complex **A;
+    int rcA[2],i,p,kt;
+
+
+    if ( (nlhs != 3) || (nrhs != 1) )
+    {
+       printf("  Usage Error Parameters Left Hand Side = %d(3) .. Right Hand Side = %d(1) \n",nlhs,nrhs);
+       usage(); 
+       return;
+    }
+    /* Check that  input is complex*/
+    if( !mxIsComplex(prhs[0]) ) 
+    {
+        usage();
+        mexErrMsgTxt("!. prhs[0] must be complex matrix\n");
+    }
+    rcA[0] = (int)(mxGetM(prhs[0])); rcA[1] = (int)(mxGetN(prhs[0]));
+    inputAr = mxGetPr(prhs[0]); inputAi = mxGetPi(prhs[0]);
+    r = rcA[0]; c = rcA[1];
+    A = myAlloc2Complex(rcA[0], rcA[1]);
+    printf(".....................................................\n");
+    printf(" size of input matrix %d by %d\n",rcA[0],rcA[1]);
+    printf(".....................................................\n");
+//  ... transfer input complex to A matrix
+    for (p = 0; p < rcA[0]; p++) // rows
+    {
+        for (i = 0; i < rcA[1]; i++)
+        {
+                kt = i*rcA[0]+p;
+                A[p][i].r = inputAr[kt];
+                A[p][i].i = inputAi[kt];
+        }
+    }
+    H = myAlloc2Complex(c, c);
+    E = myAlloc2Complex(c, c);
+    Lh = myAlloc(c); Jk = myAlloc(JkL);
+    printComplxMatrix(A, r,c);
+    CeqABtrnsp(H, A,r, c, "H = A * (A transpose)");
+    printComplxMatrix(H, c,c);
+    eigenvecH(H, E, Lh, Jk, &JkL, c);
+    plhs[2] = mxCreateDoubleMatrix(r, rcA[1], mxCOMPLEX);
+    EnPtr = mxGetPr(plhs[0]); EnPti = mxGetPi(plhs[0]);
+    for (p = 0; p < c; p++) // rows
+    {
+        for (i = 0; i < c; i++)
+        {
+                kt = i*r+p;
+                EnPtr[kt]  = En[p][i].r; 
+                EnPti[kt]  = En[p][i].i; 
+        }
+    }
+
+
+
+    plhs[0] = mxCreateDoubleMatrix(1, 1, mxREAL);
+    Eptr = mxGetPr(plhs[0]); Eptr[0] = 1.0;
+    plhs[1] = mxCreateDoubleMatrix(1, 1, mxREAL);
+    Lptr = mxGetPr(plhs[1]); Lptr[0] = 2;
+    plhs[2] = mxCreateDoubleMatrix(1, 1, mxREAL);
+    JkPtr = mxGetPr(plhs[2]); JkPtr[0] = 3;
+    return;
+}
+
+
+void usage()
+{
+    printf("[E, L, Jk] = HEIGmH(A)\n");
+    printf("A is a square Hermitian matrix\n");
+    printf("E is the matrix containing eigenvectors\n");
+    printf("L contains the eigenvalues\n");
+    printf("Jk performance function\n");
+    printf("Uses House Holder Method\n");
+    printf("Use the Command mex HEIGmH.c HEIGxH.c for getting HEIGmH \n");
+    printf("Updated on 4th Mar 2020 only Usage part\n");
+    printf("test the code by using TESTHEIG.m generates a Hermitian\n");
+}
+

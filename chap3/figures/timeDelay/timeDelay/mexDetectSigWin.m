@@ -1,0 +1,1 @@
+mex DetectSigWin.cpp DetectWin.cpp genData.cpp phiShift.cpp goldSweep.cpp

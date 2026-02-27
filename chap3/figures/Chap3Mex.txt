@@ -1,0 +1,30 @@
+
+apf.mexw64 &
+newAPF.mexw64 &
+delayT.mexw64 &
+synthData.mexw64 &
+DetectSigWin.mexw64 &
+doaVector2doa.mexw64 &
+
+chap2\figures\timeDelay\timeDelay &
+chap2\figures\timeDelay\timeDelay &
+chap2\figures\timeDelay\timeDelay &
+chap2\figures\timeDelay\timeDelay &
+chap2\figures\timeDelay\timeDelay &
+chap2\figures\quadrant & 
+
+mexApf.m &
+mexNewAPF.m &
+mexDelayT.m &
+mexSynthData.m &
+mexDetectSigWin.m &
+mex doaVector2doa.cpp &
+
+
+
+
+ 
+
+ 
+ 
+

@@ -1,0 +1,96 @@
+Chap2Prog.txt 
+eigen 
+ 
+
+ 
+ 
+ 
+gFK 
+window 
+
+figFFTnbf &
+ds2nfu.m & 
+fftNBF.asv &
+figFFTnbf.eps & 
+figFFTnbf.m & 
+
+figGFK &
+ds2nfu.m & 
+figGFKalgo.eps & 
+figGFKinA.eps & 
+figGFKphi.eps & 
+figGFKphiA.eps & 
+gFKalgo.m & 
+gFKeval.m & 
+gFKinA.m & 
+gFKobj.csv 
+gFKphi.m & 
+gFKphiA.m & 
+gFKtst.mexw64 & 
+labelgFKA.m & 
+labelgFKalgo.m & 
+labelgFKfn.m & 
+labelgFKPhi.m & 
+polarDS2nfu.m & 
+
+figHerm 
+Er.m & 
+figHerm.eps & 
+HEIGmH.mexw64 & 
+HEIGmJ.mexw64 & 
+lableFig.m & 
+tstEig.m & 
+
+figLinEqMat &
+A2ThetaR.m & 
+adata.mat & 
+figLinEqMat.eps & 
+figLinEqMat.m & 
+figLinEqMatZ.eps & 
+linRegA.asv &
+linRegA.m & 
+polarDS2nfu.m & 
+recurA.asv &
+strMat.m & 
+
+figNBF &
+ds2nfu.m & 
+figNbf.eps & 
+figNbf.m & 
+
+figRecurMatA &
+A2ThetaR.m & 
+adata.mat & 
+figRecurMatA.eps & 
+figRecurMatA.m & 
+polarDS2nfu.m & 
+recurA.m & 
+recurEq.m & 
+strMat.m & 
+
+figRecurMatAdot &
+A2ThetaR.m & 
+ds2nfu.m & 
+figRecurMatAdot.eps & 
+figRecurMatAdot.m & 
+figRecurMatAdotG.eps & 
+label311grad.m & 
+label311xDot.m & 
+recurEq.m & 
+
+figSvdMat &
+A2ThetaR.m & 
+adata.mat & 
+figSvdMat.eps & 
+figSvdMat.m & 
+polarDS2nfu.m & 
+strMat.m & 
+svdA.m & 
+
+ds2nfu.m & 
+figHwindow.eps & 
+figHwindow.m & 
+figWindow.eps & 
+figWindow.m & 
+figWindowIQ.eps & 
+figWindowIQ.m & 

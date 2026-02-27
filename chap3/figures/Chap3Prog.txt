@@ -1,0 +1,106 @@
+ 
+ 
+chap2\figures\Chap3Prog.txt 
+
+chap2\figures\timeDelay
+
+
+
+ 
+AllPassFilter &
+Apf.eps &
+apf.mexw64 &
+ds2nfu.m & 
+figApf.m & 
+figNewPhiFnApf.m & 
+figPhiFnApf.m & 
+labelApf.m & 
+labelNewPhiFn.m & 
+labelPhiFn.m & 
+newAPF.mexw64 &
+NewPhiFnApf.eps &
+PhiFnApf.eps &
+
+BellSpek &
+bell.wav &
+BellDetkt.eps & 
+BellS.m4a &
+BellSig.eps & 
+BellSig.m & 
+BellSpek.eps & 
+ds2nfu.m & 
+figBellDetkt.m & 
+figBellSpek.m & 
+labelBell.m & 
+labelDetkt.m & 
+labelSig.m & 
+Spk.m & 
+
+DelayError &
+DelayError.eps & 
+delayT.mexw64 &  
+dlyEr.mat & 
+dlyErData.m & 
+ds2nfu.m & 
+erData.m & 
+figDelayError.m & 
+figFnError.m & 
+FnError.eps & 
+labelDelaySig.m & 
+pdf_y.m & 
+snrfn.mat &
+snrfn01.mat &
+
+delaySig &
+DelaySig.eps & 
+ds2nfu.m & 
+figDelaySig.m & 
+labelDelaySig.m & 
+synthData.mexw64 & 
+
+DetectWin &
+DetectSigWin.mexw64 & 
+ds2nfu.m & 
+figHilb.m & 
+figOrthoDet.m & 
+Hilb.eps & 
+labelOrthoDet.m & 
+OrthoDet.eps & 
+OrthoDetRk.eps & 
+synthData.mexw64 & 
+
+DOA &
+delayT.mexw64 & 
+ds2nfu.m & 
+figtDoa.m & 
+labelDelaySigDoa.m & 
+labelDoa.m & 
+pdf_y.m & 
+tDoa.eps & 
+
+IntDelay &
+DelaySig.eps & 
+delayT.mexw64 & 
+ds2nfu.m & 
+figIntDelay.m & 
+FineDelay.eps & 
+IntDelay.eps & 
+labelDelaySig.m & 
+labelIntFineDelay.m &  
+myFigEps.m & 
+
+quadrant &
+azimuth2doa.m & 
+cover2pi.eps & 
+delayT.mexw64 & 
+doaVector2doa.mexw64 & 
+ds2nfu.m & 
+evalDoaData.m & 
+figQuadrantDoa.m & 
+figQuadSeg.m & 
+labelAzimDoa.m & 
+QuadrantDoa.eps & 
+QuadSeg.eps & 
+thetadata.mat &
+
+

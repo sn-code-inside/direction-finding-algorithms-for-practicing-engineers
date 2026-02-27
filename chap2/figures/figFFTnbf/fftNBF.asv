@@ -1,0 +1,18 @@
+clc; clear all;
+N = 128;
+b = zeros([1 N]); 
+w = linspace(-pi,pi,N); delw = w(2)-w(1);
+j = 30; k = fix(w(j)/delw);    
+wk = cos(2*pi*k/N) + sqrt(-1)*sin(2*pi*k/N);
+
+a=[1 -wk]; b(1)=1; b(N) = -1;
+h = freqz(b,a,w); m = abs(h)/N;
+subplot(311); plot(w,m);grid;
+xticks([-pi -3*pi/4 -pi/2 -pi/4 0 pi/4 pi/2 3*pi/4 pi]);
+xtixklabels({'-pi', '-3pi/4', '-pi/2', '-pi/4', '0 pi/4 pi/2 3*pi/4 pi})
+% set(gca, 'XTick', [-pi -3*pi/4 -pi/2 -pi/4 0 pi/4 pi/2 3*pi/4 pi]);
+% set(gca, 'XTickLabel', {'$-\pi$','$-\frac{3\pi}{4}$','$-\frac{\pi}{2}$',...
+%     '$-\frac{\pi}{4}$','0','$\frac{\pi}{4}$','$\frac{\pi}{2}$',...
+%     '$\frac{3\pi}{4}$','$\pi$'},'TickLabelInterpreter', 'latex');
+
+

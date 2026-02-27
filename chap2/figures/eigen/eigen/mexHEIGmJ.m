@@ -1,0 +1,1 @@
+mex HEIGmJ.cpp HEIGxJ.cpp cMath.cpp memAlocFree.cpp eigR.cpp HEIGxH.cpp

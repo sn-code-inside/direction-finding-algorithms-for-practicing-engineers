@@ -1,0 +1,11 @@
+HEIGmH.mexw64 &
+HEIGmJ.mexw64 &
+gFKtst.mexw64 &
+
+chap1\figures\eigen\eigen &
+chap1\figures\eigen\eigen &
+chap1\figures\gFK\gFK &
+
+mexHEIGmH.m  
+mexHEIGmJ.m
+myMexGFK.m

@@ -1,0 +1,1 @@
+mex gFKtst.cpp gFK.cpp gFKsteer.cpp pProces.cpp cMath.cpp detect.cpp  memAlocFree.cpp
