@@ -150,6 +150,40 @@ int eigenvecJ(complex **a, int M, complex **E, double *L, double *Jk, int *JkL)
     JkL[0] = k;
     return k;
 }
+/*
+ * ---------------------------------------------------------------------------
+ *   Function : rotate
+ *   Purpose  : Performs a rotation (similarity transformation) on a real
+ *              symmetric matrix as part of a diagonalisation procedure.
+ *
+ *   Parameters :
+ *      bi    - (double**) Input real symmetric matrix to be diagonalised.
+ *      ri    - (double**) Accumulated product of all transformation matrices
+ *                         from previous rotations (initially identity).
+ *      n     - (int)      Dimension of the matrices.
+ *      bo    - (double**) Output matrix after applying the current rotation.
+ *      ro    - (double**) Updated product of transformation matrices after
+ *                         performing the current rotation.
+ *      theta - (double*)  Output rotation angle for this iteration.
+ *
+ *   Description :
+ *      The function computes the appropriate rotation angle for the given
+ *      matrix elements and applies the rotation to obtain the transformed
+ *      matrix. It updates both the rotated matrix and the cumulative
+ *      transformation matrix.
+ *
+ *      Internally, it makes use of the following helper functions:
+ *         abso        – Computes absolute values for rotation logic.
+ *         inv         – Computes the inverse of a matrix when required.
+ *         my_multiply – Multiplies matrices to update transformations.
+ *
+ *   Returns : 
+ *      int flag  (results are passed back through pointer parameters)
+ *
+ *   Author : Kaluri V Ranga Rao
+ *      
+ * ---------------------------------------------------------------------------
+ */
 
 /*rotate is a function of type void which performs rotation (transformation)
   It contains six parameters

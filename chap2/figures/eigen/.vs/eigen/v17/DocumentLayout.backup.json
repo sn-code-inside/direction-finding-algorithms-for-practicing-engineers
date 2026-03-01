@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "D:\\Edu-Institutions\\JNTU-H\\myResearch\\IEEEtrans\\IEEE TechDefence 2023 Rome\\paper\\Tex\\myBookCandMcode\\chap2\\figures\\eigen\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F0B861D6-44B5-4AE5-9A25-DBE60D726FFD}|eigen\\eigen.vcxproj|D:\\Edu-Institutions\\JNTU-H\\myResearch\\IEEEtrans\\IEEE TechDefence 2023 Rome\\paper\\Tex\\myBookCandMcode\\chap2\\figures\\eigen\\eigen\\rdWrite.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{F0B861D6-44B5-4AE5-9A25-DBE60D726FFD}|eigen\\eigen.vcxproj|solutionrelative:eigen\\rdWrite.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F0B861D6-44B5-4AE5-9A25-DBE60D726FFD}|eigen\\eigen.vcxproj|D:\\Edu-Institutions\\JNTU-H\\myResearch\\IEEEtrans\\IEEE TechDefence 2023 Rome\\paper\\Tex\\myBookCandMcode\\chap2\\figures\\eigen\\eigen\\memAlocFree.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{F0B861D6-44B5-4AE5-9A25-DBE60D726FFD}|eigen\\eigen.vcxproj|solutionrelative:eigen\\memAlocFree.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{F0B861D6-44B5-4AE5-9A25-DBE60D726FFD}|eigen\\eigen.vcxproj|D:\\Edu-Institutions\\JNTU-H\\myResearch\\IEEEtrans\\IEEE TechDefence 2023 Rome\\paper\\Tex\\myBookCandMcode\\chap2\\figures\\eigen\\eigen\\eigen.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F0B861D6-44B5-4AE5-9A25-DBE60D726FFD}|eigen\\eigen.vcxproj|solutionrelative:eigen\\eigen.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,27 +27,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "rdWrite.cpp",
-              "DocumentMoniker": "D:\\Edu-Institutions\\JNTU-H\\myResearch\\IEEEtrans\\IEEE TechDefence 2023 Rome\\paper\\Tex\\myBookCandMcode\\chap2\\figures\\eigen\\eigen\\rdWrite.cpp",
-              "RelativeDocumentMoniker": "eigen\\rdWrite.cpp",
-              "ToolTip": "D:\\Edu-Institutions\\JNTU-H\\myResearch\\IEEEtrans\\IEEE TechDefence 2023 Rome\\paper\\Tex\\myBookCandMcode\\chap2\\figures\\eigen\\eigen\\rdWrite.cpp",
-              "RelativeToolTip": "eigen\\rdWrite.cpp",
-              "ViewState": "AgIAADYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-08-06T22:07:48.721Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "memAlocFree.cpp",
-              "DocumentMoniker": "D:\\Edu-Institutions\\JNTU-H\\myResearch\\IEEEtrans\\IEEE TechDefence 2023 Rome\\paper\\Tex\\myBookCandMcode\\chap2\\figures\\eigen\\eigen\\memAlocFree.cpp",
-              "RelativeDocumentMoniker": "eigen\\memAlocFree.cpp",
-              "ToolTip": "D:\\Edu-Institutions\\JNTU-H\\myResearch\\IEEEtrans\\IEEE TechDefence 2023 Rome\\paper\\Tex\\myBookCandMcode\\chap2\\figures\\eigen\\eigen\\memAlocFree.cpp",
-              "RelativeToolTip": "eigen\\memAlocFree.cpp",
+              "Title": "eigen.cpp",
+              "DocumentMoniker": "D:\\Edu-Institutions\\JNTU-H\\myResearch\\IEEEtrans\\IEEE TechDefence 2023 Rome\\paper\\Tex\\myBookCandMcode\\chap2\\figures\\eigen\\eigen\\eigen.cpp",
+              "RelativeDocumentMoniker": "eigen\\eigen.cpp",
+              "ToolTip": "D:\\Edu-Institutions\\JNTU-H\\myResearch\\IEEEtrans\\IEEE TechDefence 2023 Rome\\paper\\Tex\\myBookCandMcode\\chap2\\figures\\eigen\\eigen\\eigen.cpp",
+              "RelativeToolTip": "eigen\\eigen.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-08-06T22:07:38.18Z"
+              "WhenOpened": "2026-03-01T06:37:06.948Z",
+              "EditorCaption": ""
             }
           ]
         }
