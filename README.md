@@ -1,3 +1,4 @@
+1.14.1 MEX File Generation and 1.14.2 File Organization in the book
 chap1/figures
 ├── Chap1.txt
 ├── Chap1Mex.txt
