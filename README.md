@@ -13,6 +13,7 @@ chap1/figures
 ├── figTdoa/
 ├── figUlaPhase/
 └── tstPolar/
+
 2.11.1 MEX File Generation and 2.11.2 File Organization in the book
 
 chap2/figures
@@ -29,6 +30,7 @@ chap2/figures
 ├── figSvdMat/
 ├── gFK/
 └── window/
+
 3.9.1 MEX File Generation and 3.9.2 File Organization in the book
 
 chap3/figures
@@ -43,6 +45,7 @@ chap3/figures
 ├── IntDelay/
 ├── quadrant/
 └── timeDelay/
+
 4.14.1 MEX File Generation and 4.14.2 File Organization in the book
 
 chap4/figures
@@ -68,6 +71,7 @@ chap4/figures
 ├── myMexGetRgD/
 ├── myMexInitR/
 └── rootMu/
+
 5.7.1 MEX File Generation and 5.7.2 File Organization in the book
 
 chap5/figures
@@ -84,6 +88,7 @@ chap5/figures
 ├── figTriUlaStf/
 ├── stfBeamSteer/
 └── stfMexCode/
+
 6.11.1 MEX File Generation and 6.11.2 File Organization in the book
 
 chap6/figures
