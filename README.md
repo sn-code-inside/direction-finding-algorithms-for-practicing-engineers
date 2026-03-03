@@ -1,3 +1,8 @@
+# Direction Finding Algorithms for Practicing Engineers
+This repository accompanies the book [*Direction Finding Algorithms for Practicing Engineers*](https://link.springer.com/book/9783032069962) by Venkata Rangarao Kaluri (Springer 2026).
+
+<img src="978-3-032-06996-2.jpg"  width="25%" height="25%" alt="Book cover of Direction Finding Algorithms for Practicing Engineers">
+
 1.14.1 MEX File Generation and 1.14.2 File Organization in the book
 
 chap1/figures
